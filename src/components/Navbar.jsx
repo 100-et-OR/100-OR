@@ -40,15 +40,15 @@ const Navbar = () => {
 
                     {/* Logo au milieu */}
                     <div className="flex-grow flex justify-center">
-                        <img src="/img/LogoNav.png" alt="LogoNav" className="w-15" />
+                        <img src="public/img/LogoNav.png" alt="LogoNav" className="w-15" />
                     </div>
 
                     {/* Section droite - Drapeaux et Se connecter */}
                     <div className="hidden md:flex items-center space-x-8">
                         <div className="flex space-x-2">
-                            <img src="/img/flag/FRANCE.png" alt="FR" className="w-12 border-4 border-black" />
-                            <img src="/img/X.png" alt="X" className="w-12" />
-                            <img src="/img/flag/COLOMBIE.png" alt="CO" className="w-12 border-4 border-black" />
+                            <img src="public/img/flag/FRANCE.png" alt="FR" className="w-12 border-4 border-black" />
+                            <img src="public/img/X.png" alt="X" className="w-12" />
+                            <img src="public/img/flag/COLOMBIE.png" alt="CO" className="w-12 border-4 border-black" />
                         </div>
                         <button 
                             className="text-gray-800 hover:text-yellow-500" 
